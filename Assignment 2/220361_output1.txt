@@ -1,0 +1,155 @@
+(1a) Email-id: dhruvgupta22@iitk.ac.in
+h1 (SHA256): 960d8c6124813d2a5f4783e60a63df9b7a0ca100e874e8c994cd18a6fe9d015a
+
+(1b) Searching for second-preimage with first 16 bits...
+
+Second-preimage found after 21158 attempts!
+Result:
+  h1 email: dhruvgupta22@iitk.ac.in
+  h1 hash:  960d8c6124813d2a5f4783e60a63df9b7a0ca100e874e8c994cd18a6fe9d015a
+  h2 email: u2xhbgsnxcnu@iitk.ac.in
+  h2 hash:  960df3c1d64158d10cbd7032afccaa29f72594c1117683d4427868477fa44962
+  Attempts: 21158
+  Match: first 16 bits identical
+
+Second-preimage found after 450214 attempts!
+Result:
+  h1 email: dhruvgupta22@iitk.ac.in
+  h1 hash:  960d8c6124813d2a5f4783e60a63df9b7a0ca100e874e8c994cd18a6fe9d015a
+  h2 email: u2xhbgsn6jp2@iitk.ac.in
+  h2 hash:  960d84cff5fc5f8da1b275295de67688356f12e62e6048a6ae00acbbfc121c11
+  Attempts: 450214
+  Match: first 20 bits identical
+
+Second-preimage found after 2821589 attempts!
+Result:
+  h1 email: dhruvgupta22@iitk.ac.in
+  h1 hash:  960d8c6124813d2a5f4783e60a63df9b7a0ca100e874e8c994cd18a6fe9d015a
+  h2 email: u2xhbgspldhl@iitk.ac.in
+  h2 hash:  960d8ce3943fb442be750ac0c897e238d05c3f1ca7ab765e2003ff8924dcf9aa
+  Attempts: 2821589
+  Match: first 24 bits identical
+
+Second-preimage found after 116699195 attempts!
+Result:
+  h1 email: dhruvgupta22@iitk.ac.in
+  h1 hash:  960d8c6124813d2a5f4783e60a63df9b7a0ca100e874e8c994cd18a6fe9d015a
+  h2 email: u2xhbguld50f@iitk.ac.in
+  h2 hash:  960d8c6bdfbed9ffa496ef68323b9c759cb0d81d11e8aeae94b1ebb694b74d85
+  Attempts: 116699195
+  Match: first 28 bits identical
+Max attempts reached for 32 bits. Stopping.
+
+(1c) Running 50 trials for 20 bits match...
+Average attempts (t) for 20 bits over 50 trials : 784321
+log2(t) = 19.5811
+
+(1d) We are trying to run a second preimage attack, which takes 2^n number of computations of the hash function (excluding the computation of h(x) for the given input x), where n is the number of initial bits to match. Therefore, if t is the number of attempts needed, then log_2(t) is expected to be close to n.
+
+(1e) Searching for collision with first 16 bits...
+
+Collision found after 253 attempts!
+Result:
+  x email: 4f8jlvpyp24ml@iitk.ac.in
+  x hash:  a0abb097e49bd7d5e22d71f5306c9b6dffeed49b8e6f86b1dd9baf841570466d
+  y email: 4f8jlvpyp24r5@iitk.ac.in
+  y hash:  a0abea7d20982045ea2a5455a5ef207138e9a61e72c43f59573bbca7a0dd4c1c
+  Attempts: 253
+  Match: first 16 bits identical
+
+(1e) Searching for collision with first 20 bits...
+
+Collision found after 347 attempts!
+Result:
+  x email: oje3tqgf2zwj2@iitk.ac.in
+  x hash:  8960718b810929308bb2fdd385a75021834f561461b779087734a482dd1453c4
+  y email: oje3tqgf2zwpp@iitk.ac.in
+  y hash:  89607fce918f282f9cc4cfdf5ce608cc33379f7c432a776bfe2c7462ec4edd40
+  Attempts: 347
+  Match: first 20 bits identical
+
+(1e) Searching for collision with first 24 bits...
+
+Collision found after 4048 attempts!
+Result:
+  x email: 1lrsiudp4s@iitk.ac.in
+  x hash:  ff95aed0190888e56b583df02fe27271e18c2976c7f0e1d2c9863a14c11c1c33
+  y email: 1lrsiudqqv@iitk.ac.in
+  y hash:  ff95aee37edfa2e92c2762f542080f50a2a490dbd1d740f8b97365fc9d39da5c
+  Attempts: 4048
+  Match: first 24 bits identical
+
+(1e) Searching for collision with first 28 bits...
+
+Collision found after 15376 attempts!
+Result:
+  x email: tfiywl0co@iitk.ac.in
+  x hash:  00774708a2530a78e35388b218d2f5947c7d7d26361898d77c2d471a0c871967
+  y email: tfiywl5x3@iitk.ac.in
+  y hash:  0077470e6a289823a5483682fbe1915739acd3939df2263392e69b80c2d91c82
+  Attempts: 15376
+  Match: first 28 bits identical
+
+(1e) Searching for collision with first 32 bits...
+
+Collision found after 49480 attempts!
+Result:
+  x email: chh0cv4km0l1d@iitk.ac.in
+  x hash:  e4bec336e5829f952864842ae4c16277180c79799f7e32feaff7dcdc6998fc34
+  y email: chh0cv4km075w@iitk.ac.in
+  y hash:  e4bec336cfc586831b575826cc489c7987c8636a66b78c39272bb726b66b3854
+  Attempts: 49480
+  Match: first 32 bits identical
+
+(1e) Searching for collision with first 36 bits...
+
+Collision found after 209604 attempts!
+Result:
+  x email: atr1rmlymdf8jq@iitk.ac.in
+  x hash:  f54e9d8245f6bddc8b2bf08a92dd21ad6c6bae1dcea48a89dd5603e4eef8fdaa
+  y email: atr1rmlymdjirp@iitk.ac.in
+  y hash:  f54e9d824591ace9a77efa61ad2f29967867bf315912bf95231273f568f302c7
+  Attempts: 209604
+  Match: first 36 bits identical
+
+(1e) Searching for collision with first 40 bits...
+
+Collision found after 2099635 attempts!
+Result:
+  x email: zw69d@iitk.ac.in
+  x hash:  8ae7766261bb805a255d7bc277b42c51a1eb29f6d4a09e3f6d65a681a885c275
+  y email: z6xly@iitk.ac.in
+  y hash:  8ae7766261d6de9e729e7feb63baab23d7574b33ac3befa72480734c3757cdb4
+  Attempts: 2099635
+  Match: first 40 bits identical
+
+(1e) Searching for collision with first 44 bits...
+
+Collision found after 5483625 attempts!
+Result:
+  x email: 45rhy56z4y02749@iitk.ac.in
+  x hash:  35947a40268ce64ef4adfcc13c995bde108ac30ac78695798d526dd6940457d2
+  y email: 45rhy56z4y2y9mn@iitk.ac.in
+  y hash:  35947a4026873ebe6a882d11a4d5bd693fccd4b60710964d64160f39b821ccc1
+  Attempts: 5483625
+  Match: first 44 bits identical
+
+(1e) Searching for collision with first 48 bits...
+
+Collision found after 5848300 attempts!
+Result:
+  x email: zgg9lg@iitk.ac.in
+  x hash:  b6304e0c0b7964ae1d4519cf29fe9ae2a2d056a449caf880e94cbce3a2614f77
+  y email: zjm0bg@iitk.ac.in
+  y hash:  b6304e0c0b795c0b97f715d3d5038e635a82670c247bb29b31a76eb42e5bcb8e
+  Attempts: 5848300
+  Match: first 48 bits identical
+
+(1e) Searching for collision with first 52 bits...
+No collision found for 52 bits within max attempts. Stopping.
+
+(1f) Running 50 trials for 40 bits match...
+Average attempts (t) for 40 bits over 50 trials : 1.27709e+06
+log2(t) = 20.2844
+
+(1g) We are trying to run a collision attack. Based on the birthday paradox derivation done in class, the number of queries q needed for a collision probability p is approximately q = sqrt(2^n) * sqrt(2 ln(1/(1-p))), where 2^n is the size of the co-domain (number of possible values for an n-bit hash prefix). For a 90% chance of collision (p = 0.90), the constant factor is approx 2.15. Thus, if t is the number of attempts, there is a very high chance that t < 2.15 * 2^(n/2) => log_2(t) < n/2 + log_2(2.15) = n/2 + 1.1. Hence we expect log_2(t) will be close to n/2 (maybe slightly greater)

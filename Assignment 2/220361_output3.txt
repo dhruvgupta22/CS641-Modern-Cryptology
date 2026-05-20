@@ -1,0 +1,24 @@
+========== Question 3: Diffie-Hellman Key Exchange ==========
+
+(b) Generating a 512-bit prime p such that (p-1) = 2p'...
+Prime p (512-bit) = 8436b4e23ab930b24646dc1f88c30c18afe2e5c700f790d429d525210e02f38e6de68b65e73a2a43d9fcb025337359e50fe00513f39a54b6132f7710b72458db (hex)
+Prime p' (511-bit)= 421b5a711d5c985923236e0fc461860c57f172e3807bc86a14ea9290870179c736f345b2f39d1521ecfe581299b9acf287f00289f9cd2a5b0997bb885b922c6d (hex)
+
+(c) Finding a generator for the group Zp*...
+Generator g       = 21b70404449588eb1aec336dac32d08db1df3ffc1bc4d38f5d12b5195a5741d21fdb6b9d3b8110526d9369999b2496f67a1a882e27e920ae5bf3a3ba027c60b0 (hex)
+
+(d) Simulating Diffie-Hellman Key Exchange...
+
+Alice generates private key 'a'...
+Alice's public key A = 2f5cdef3ae4e5bd280d4e31c5c5f0f09f555ffcfd5a2e0edb77c05c462e6012c609deb345ba1f5f90791bbbbbe64d86bbf1fab0edee3d5dc3ffca892de17b0df
+
+Bob generates private key 'b'...
+Bob's public key B   = 425f27e64ee8d605e72fdf30701a39d2fac82141bbeeb8e680f9366f9afbbe747257e32a16f35a08b9c5716c0f7320f9115a7dea567e133b4b4904172290da26
+
+Alice computes shared secret S_A = B^a mod p...
+Bob computes shared secret S_B = A^b mod p...
+
+Shared Secret (Alice) = 6253011613316ca6121eec0f729821eaa2685d56f4396ec1bc693f01792e6d7118f9050b888c4e8d258517d258d2e51c84b3570f6810e7fa736ddedcec25d754
+Shared Secret (Bob)   = 6253011613316ca6121eec0f729821eaa2685d56f4396ec1bc693f01792e6d7118f9050b888c4e8d258517d258d2e51c84b3570f6810e7fa736ddedcec25d754
+
+SUCCESS: Both parties computed the same common secret!
